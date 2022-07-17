@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOF.Criacionais
+namespace GOF.Criational
 {
   /* Use to build complex objects and to avoid giant class constructors. */
 

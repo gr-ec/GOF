@@ -4,16 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GOF.Criacionais
+namespace GOF.Criational
 {
-  /* Use to create objects without specifying its concrete classes (it uses factories instead) and to have a commom operation
-   * between them. Benefits include changing concrete objects without breaking the code and combining them with "strategy" pattern
-   * to process multiple behaviors at once. */
+  /* Use to create objects without specifying its concrete classes (it uses factories instead)
+   * and to have a common operation between them. Benefits include changing concrete objects
+   * without breaking the code and combining them with "strategy" pattern to process multiple
+   * behaviors at once. */
 
   /// <summary>
   /// Declares a creator factory method (overriden by subclasses) and a method to do the job.
-  /// The factory method is different from the abstract factory because the latter would only create the factory, not the
-  /// object. After, each factory would create the object and process it.
+  /// 
+  /// The abstract factory is different from the factory method because the latter just
+  /// creates one family of products while the former can work with families of products.
   /// </summary>
   public abstract class AbstractMathOpCreator
   {
@@ -50,7 +52,7 @@ namespace GOF.Criacionais
   #endregion
 
   /// <summary>
-  /// Object interface containing implementors commom method to do the job.
+  /// Object interface containing implementors common method to do the job.
   /// </summary>
   public interface IMathOperation
   {
