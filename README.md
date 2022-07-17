@@ -1,3 +1,3 @@
 # GOF
 
-GOF patterns examples and explanations.
+"Gang Of Four" design patterns examples.
