@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Estruturais\" />
-    <Folder Include="Comportamentais\" />
+    <Folder Include="Structural\" />
+    <Folder Include="Behavioral\" />
   </ItemGroup>
 
 </Project>
