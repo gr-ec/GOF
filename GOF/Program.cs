@@ -10,6 +10,7 @@ Console.WriteLine("3. Abstract factory");
 Console.WriteLine("4. Strategy");
 Console.WriteLine("5. Observer");
 Console.WriteLine("6. Facade");
+Console.WriteLine("7. Singleton");
 Console.WriteLine("");
 Console.Write("Run: ");
 
@@ -26,4 +27,5 @@ switch (key.KeyChar.ToString())
   case "4": StrategyClient.Run(); break;
   case "5": ObserverClient.Run(); break;
   case "6": FacadeClient.Run(); break;
+  case "7": SingletonClient.Run(); break;
 }
